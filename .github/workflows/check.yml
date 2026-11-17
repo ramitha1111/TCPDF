@@ -21,7 +21,7 @@ jobs:
   test-php:
     name: Test on php ${{ matrix.php-version }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 5
     strategy:
       fail-fast: false
       matrix:
